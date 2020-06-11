@@ -1,2 +1,3 @@
 # config_files_mac
-Bunch of config files I use for different tasks on mac
+
+Collection of config files that I use to setup my environment on macOS.
