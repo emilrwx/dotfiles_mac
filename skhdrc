@@ -1,0 +1,59 @@
+# FOCUS CONTROLS
+
+# toggle focus between displays
+ctrl + alt - left : yabai -m display --focus next
+ctrl + alt - right : yabai -m display --focus prev
+
+# focus prev/next space
+ctrl - left : yabai -m space --focus prev || yabai -m space --focus last
+ctrl - right : yabai -m space --focus next || yabai -m space --focus first
+
+# toggle focus between windows
+cmd + shift - right : yabai -m window --focus next
+cmd + shift - left : yabai -m window --focus prev
+
+
+
+
+# SPACE AND DISPLAY CONTROLS
+
+# create/destroy space
+shift + alt - return : yabai -m space --create
+shift + alt - backspace : yabai -m space --destroy
+
+# move space left/right
+shift + alt - left : yabai -m space --move prev
+shift + alt - right : yabai -m space --move next
+
+
+
+
+# WINDOW CONTROLS
+
+# send window to space and follow focus
+ctrl + shift - right : yabai -m window --space next; yabai -m space --focus next
+ctrl + shift - left : yabai -m window --space prev; yabai -m space --focus prev
+
+# send window to display and follow focus
+ctrl + cmd - left  : yabai -m window --display next; yabai -m display --focus next
+ctrl + cmd - right  : yabai -m window --display prev; yabai -m display --focus prev
+
+
+
+
+# TILED WINDOWS
+
+# move tiled window towards west
+cmd + alt - left : yabai -m window --swap west
+
+# move tiled window towards east
+cmd + alt - right : yabai -m window --swap east
+
+# move tiled window towards north
+cmd + alt - up : yabai -m window --swap north
+
+# move tiled window towards south
+cmd + alt - down : yabai -m window --swap south
+
+# balance tiled windows
+alt + cmd - b : yabai -m space --balance
