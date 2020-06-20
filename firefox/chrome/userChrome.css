@@ -90,9 +90,9 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 }
 
 /* Icons */
-#PanelUI-menu-button {
+/* #PanelUI-menu-button {
 	list-style-image: url(image/Fx-Browser-icon-oneColor-white.png) !important;
-}
+} */
 
 #PanelUI-button {
 	margin-inline-start: 0 !important;
