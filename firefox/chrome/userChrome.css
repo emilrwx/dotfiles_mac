@@ -396,7 +396,7 @@ if you change --tab-min-height it doesnt work for fullcreen
 	/*border-bottom: 1px solid #ffffff30 !important;*/
 	border-radius: 0 !important;
 	background-image: none !important;
-	background-color: #0000004d !important;
+	background-color: #404040d9 !important;
 }
 
 
@@ -406,7 +406,7 @@ if you change --tab-min-height it doesnt work for fullcreen
 	/*border-top: 1px solid #b9b9b969 !important;*/
 	border-radius: 0 !important;
 	background-image: none !important;
-	background-color: #404040d9 !important;
+	background-color: rgb(30, 30, 30) !important;
 	/*border-bottom: 1px solid #0009 !important;*/
 }
 
@@ -416,7 +416,7 @@ if you change --tab-min-height it doesnt work for fullcreen
 	/*border-top: 1px solid #b9b9b969 !important;*/
 	border-radius: 0 !important;
 	background-image: none !important;
-	background-color: #404040d9 !important;
+	background-color: rgb(30, 30, 30) !important;
 	/*border-bottom: 1px solid #0009 !important;*/
 }
 
