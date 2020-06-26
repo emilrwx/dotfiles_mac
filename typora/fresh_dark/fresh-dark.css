@@ -290,13 +290,13 @@ ol {
 
 ul {
   list-style-type: none;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 
 ul>li:before {
   content: "—";
   position: absolute;
-  margin-left: -1em;
+  margin-left: -1.5em;
 }
 
 ol {
