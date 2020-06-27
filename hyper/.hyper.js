@@ -24,7 +24,7 @@ module.exports = {
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: 'rgba(255, 255, 255, 0.84)',
+    foregroundColor: 'rgb(235, 219, 178)',
 
     // terminal background color
     backgroundColor: '#111112',
