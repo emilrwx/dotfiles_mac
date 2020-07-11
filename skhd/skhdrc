@@ -1,8 +1,8 @@
 # FOCUS CONTROLS
 
 # toggle focus between displays
-ctrl + alt - left : yabai -m display --focus next
-ctrl + alt - right : yabai -m display --focus prev
+ctrl + alt - right : yabai -m display --focus next
+ctrl + alt - left : yabai -m display --focus prev
 
 # focus prev/next space
 ctrl - left : yabai -m space --focus prev || yabai -m space --focus last
@@ -35,8 +35,8 @@ ctrl + shift - right : yabai -m window --space next; yabai -m space --focus next
 ctrl + shift - left : yabai -m window --space prev; yabai -m space --focus prev
 
 # send window to display and follow focus
-ctrl + cmd - left  : yabai -m window --display next; yabai -m display --focus next
-ctrl + cmd - right  : yabai -m window --display prev; yabai -m display --focus prev
+ctrl + cmd - right  : yabai -m window --display next; yabai -m display --focus next
+ctrl + cmd - left  : yabai -m window --display prev; yabai -m display --focus prev
 
 
 
