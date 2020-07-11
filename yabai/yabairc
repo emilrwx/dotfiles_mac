@@ -11,6 +11,6 @@ yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
 
 yabai -m config window_border on
-yabai -m config window_border_width 6
+yabai -m config window_border_width 2
 yabai -m config active_window_border_color 0xff90A959
 yabai -m config normal_window_border_color 0xff111112
