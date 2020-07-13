@@ -1,4 +1,4 @@
-# FOCUS CONTROLS
+#################### FOCUS CONTROLS ####################
 
 # toggle focus between displays
 ctrl + alt - right : yabai -m display --focus next
@@ -24,10 +24,7 @@ ctrl + alt - 0 : yabai -m space --focus 10
 cmd + shift - right : yabai -m window --focus next
 cmd + shift - left : yabai -m window --focus prev
 
-
-
-
-# SPACE AND DISPLAY CONTROLS
+#################### SPACE CONTROLS ####################
 
 # create/destroy space
 shift + alt - return : yabai -m space --create
@@ -37,23 +34,28 @@ shift + alt - backspace : yabai -m space --destroy
 shift + alt - left : yabai -m space --move prev
 shift + alt - right : yabai -m space --move next
 
-
-
-
-# WINDOW CONTROLS
+#################### WINDOW CONTROLS ####################
 
 # send window to space and follow focus
 ctrl + shift - right : yabai -m window --space next; yabai -m space --focus next
 ctrl + shift - left : yabai -m window --space prev; yabai -m space --focus prev
+ctrl + shift - 1 : yabai -m window --space  1; yabai -m space --focus 1
+ctrl + shift - 2 : yabai -m window --space  2; yabai -m space --focus 2
+ctrl + shift - 3 : yabai -m window --space  3; yabai -m space --focus 3
+ctrl + shift - 4 : yabai -m window --space  4; yabai -m space --focus 4
+ctrl + shift - 5 : yabai -m window --space  5; yabai -m space --focus 5
+ctrl + shift - 6 : yabai -m window --space  6; yabai -m space --focus 6
+ctrl + shift - 7 : yabai -m window --space  7; yabai -m space --focus 7
+ctrl + shift - 8 : yabai -m window --space  8; yabai -m space --focus 8
+ctrl + shift - 9 : yabai -m window --space  9; yabai -m space --focus 9
+ctrl + shift - 0 : yabai -m window --space 10; yabai -m space --focus 10
+
 
 # send window to display and follow focus
 ctrl + cmd - right  : yabai -m window --display next; yabai -m display --focus next
 ctrl + cmd - left  : yabai -m window --display prev; yabai -m display --focus prev
 
-
-
-
-# TILED WINDOWS
+#################### TILED WINDOWS ####################
 
 # move tiled window towards west
 cmd + alt - left : yabai -m window --swap west
