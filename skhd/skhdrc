@@ -33,8 +33,8 @@ shift + alt - return : yabai -m space --create
 shift + alt - backspace : yabai -m space --destroy
 
 # move space left/right
-shift + alt - left : yabai -m space --move prev
-shift + alt - right : yabai -m space --move next
+#shift + alt - left : yabai -m space --move prev
+#shift + alt - right : yabai -m space --move next
 
 #################### WINDOW CONTROLS ####################
 
@@ -69,13 +69,13 @@ cmd + alt - down : yabai -m window --swap south
 alt + cmd - b : yabai -m space --balance
 
 # increase window size
-cmd + alt - a : yabai -m window --resize left:-100:0
-cmd + alt - s : yabai -m window --resize bottom:0:100
-cmd + alt - w : yabai -m window --resize top:0:-100
-cmd + alt - d : yabai -m window --resize right:100:0
+cmd + shift - left : yabai -m window --resize left:-100:0
+cmd + shift - down : yabai -m window --resize bottom:0:100
+cmd + shift - up : yabai -m window --resize top:0:-100
+cmd + shift - right : yabai -m window --resize right:100:0
 
 # decrease window size
-cmd + alt - j : yabai -m window --resize left:100:0
-cmd + alt - k : yabai -m window --resize bottom:0:-100
-cmd + alt - i : yabai -m window --resize top:0:100
-cmd + alt - l : yabai -m window --resize right:-100:0
+shift + alt - left : yabai -m window --resize left:100:0
+shift + alt - down : yabai -m window --resize bottom:0:-100
+shift + alt - up : yabai -m window --resize top:0:100
+shift + alt - right : yabai -m window --resize right:-100:0
