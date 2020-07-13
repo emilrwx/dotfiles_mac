@@ -1,8 +1,8 @@
 #################### FOCUS CONTROLS ####################
 
 # toggle focus between displays
-ctrl + alt - right : yabai -m display --focus next
-ctrl + alt - left : yabai -m display --focus prev
+ctrl + alt - e : yabai -m display --focus next
+ctrl + alt - q : yabai -m display --focus prev
 
 # focus prev/next space
 ctrl - left : yabai -m space --focus prev || yabai -m space --focus last
@@ -21,8 +21,10 @@ ctrl + alt - 9 : yabai -m space --focus 9
 ctrl + alt - 0 : yabai -m space --focus 10
 
 # toggle focus between windows
-cmd + shift - right : yabai -m window --focus next
-cmd + shift - left : yabai -m window --focus prev
+ctrl + alt - right : yabai -m window --focus east
+ctrl + alt - left : yabai -m window --focus west
+ctrl + alt - up : yabai -m window --focus north
+ctrl + alt - down : yabai -m window --focus south
 
 #################### SPACE CONTROLS ####################
 
@@ -57,17 +59,23 @@ ctrl + cmd - left  : yabai -m window --display prev; yabai -m display --focus pr
 
 #################### TILED WINDOWS ####################
 
-# move tiled window towards west
+# move tiled window 
 cmd + alt - left : yabai -m window --swap west
-
-# move tiled window towards east
 cmd + alt - right : yabai -m window --swap east
-
-# move tiled window towards north
 cmd + alt - up : yabai -m window --swap north
-
-# move tiled window towards south
 cmd + alt - down : yabai -m window --swap south
 
 # balance tiled windows
 alt + cmd - b : yabai -m space --balance
+
+# increase window size
+cmd + alt - a : yabai -m window --resize left:-100:0
+cmd + alt - s : yabai -m window --resize bottom:0:100
+cmd + alt - w : yabai -m window --resize top:0:-100
+cmd + alt - d : yabai -m window --resize right:100:0
+
+# decrease window size
+cmd + alt - j : yabai -m window --resize left:100:0
+cmd + alt - k : yabai -m window --resize bottom:0:-100
+cmd + alt - i : yabai -m window --resize top:0:100
+cmd + alt - l : yabai -m window --resize right:-100:0
