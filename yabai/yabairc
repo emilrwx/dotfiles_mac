@@ -12,6 +12,7 @@ yabai -m rule --add label="Activity Monitor" app="^Activity Monitor$" manage=off
 yabai -m rule --add label="Calculator" app="^Calculator$" manage=off
 yabai -m rule --add label="Microsoft Excel" app="^Microsoft Excel$" manage=off
 yabai -m rule --add label="Microsoft Word" app="^Microsoft Word$" manage=off
+yabai -m rule --add label="Finder" app="^Finder$" manage=off
 
 yabai -m config window_border on
 yabai -m config window_border_width 2
