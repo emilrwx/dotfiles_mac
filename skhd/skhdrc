@@ -78,3 +78,7 @@ shift + alt - right : yabai -m window --resize right:-100:0
 
 # toggle split direction
 cmd + alt - t : yabai -m window --toggle split
+
+# toggle float window and center on screen
+cmd + alt - g : yabai -m window --toggle float;\
+          yabai -m window --grid 8:8:2:1:4:6
