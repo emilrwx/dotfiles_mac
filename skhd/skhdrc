@@ -75,3 +75,6 @@ shift + alt - left : yabai -m window --resize left:100:0
 shift + alt - down : yabai -m window --resize bottom:0:-100
 shift + alt - up : yabai -m window --resize top:0:100
 shift + alt - right : yabai -m window --resize right:-100:0
+
+# toggle split direction
+cmd + alt - t : yabai -m window --toggle split
