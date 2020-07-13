@@ -32,9 +32,8 @@ ctrl + alt - down : yabai -m window --focus south
 shift + alt - return : yabai -m space --create
 shift + alt - backspace : yabai -m space --destroy
 
-# move space left/right
-#shift + alt - left : yabai -m space --move prev
-#shift + alt - right : yabai -m space --move next
+# balance tiled windows
+alt + cmd - b : yabai -m space --balance
 
 #################### WINDOW CONTROLS ####################
 
@@ -64,9 +63,6 @@ cmd + alt - left : yabai -m window --swap west
 cmd + alt - right : yabai -m window --swap east
 cmd + alt - up : yabai -m window --swap north
 cmd + alt - down : yabai -m window --swap south
-
-# balance tiled windows
-alt + cmd - b : yabai -m space --balance
 
 # increase window size
 cmd + shift - left : yabai -m window --resize left:-100:0
