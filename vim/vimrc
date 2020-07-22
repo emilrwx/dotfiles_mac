@@ -1,0 +1,113 @@
+set nocompatible
+
+filetype indent plugin on
+ 
+syntax enable
+ 
+set hidden
+
+set wildmenu
+
+set showcmd
+set noshowmode
+
+set hlsearch
+set ignorecase
+set smartcase
+
+set backspace=eol,start,indent
+set whichwrap+=<,>,h,l
+"set listchars=eol:¬
+"set list
+
+set autoindent
+
+set nostartofline
+
+set confirm
+
+set mouse=a
+
+set number
+ 
+set notimeout ttimeout ttimeoutlen=200
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+
+autocmd filetype markdown setlocal foldcolumn=1
+autocmd filetype markdown setlocal nonumber
+
+set nobackup
+set nowb
+set noswapfile
+
+set ai "Auto indent
+set si "Smart indent
+set wrap "Wrap lines
+
+set encoding=utf-8
+
+set breakindent
+set linebreak
+
+set scrolloff=5
+
+set background=dark
+colorscheme slate
+
+hi EndOfBuffer ctermfg=0
+
+"split windows
+hi VertSplit cterm=NONE
+set fillchars=vert:\│
+
+" Formats the statusline
+hi statusline ctermfg=2 ctermbg=0
+hi statuslineNC ctermfg=2 ctermbg=0
+set laststatus=2
+
+set statusline=
+set statusline+=[%{GetMode()}]  " show mode
+set statusline+=\ <<%t%m>>      " file name & modified flag
+set statusline+=%=              " align left
+set statusline+=%l/%L           " line X of Y
+set statusline+=\ %y
+
+function! GetMode()
+  let l:mode=mode()
+  if l:mode==#"n"
+    return "NORMAL"
+  elseif l:mode==?"v"
+    return "VISUAL"
+  elseif l:mode==#"i"
+    return "INSERT"
+  elseif l:mode==#"R"
+    return "REPLACE"
+  elseif l:mode==?"s"
+    return "SELECT"
+  elseif l:mode==#"t"
+    return "TERMINAL"
+  elseif l:mode==#"c"
+    return "COMMAND"
+  elseif l:mode==#"!"
+    return "SHELL"
+  endif
+endfunction
+
+autocmd filetype netrw setlocal statusline=%l/%L 
+
+"file explorer
+let g:netrw_banner=0
+let g:netrw_liststyle=3
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_winsize=20
+augroup ProjectDrawer
+  autocmd!
+  autocmd VimEnter * :Vexplore
+augroup END
+
+highlight FoldColumn ctermbg=0
