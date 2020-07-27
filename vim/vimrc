@@ -67,14 +67,17 @@ hi VertSplit cterm=NONE
 set fillchars=vert:\│
 
 " Formats the statusline
+hi User2 ctermbg=0 ctermfg=2 cterm=bold
+hi User1 ctermbg=2 ctermfg=0 cterm=bold
 hi statusline ctermfg=0 ctermbg=2
 hi statuslineNC ctermfg=0 ctermbg=0
 set laststatus=2
 
-set statusline=
+set statusline+=%1*             " change colors
 set statusline+=[%{GetMode()}]  " show mode
-set statusline+=\ <<%t%m>>      " file name & modified flag
-set statusline+=%=              " align left
+set statusline+=%2*             " change colors
+set statusline+=\ %t%m          " file name & modified flag
+set statusline+=%=              " split alignment to right from here
 set statusline+=%l/%L           " line X of Y
 set statusline+=\ %y
 
@@ -99,7 +102,7 @@ function! GetMode()
   endif
 endfunction
 
-autocmd filetype netrw setlocal statusline=%l/%L 
+autocmd filetype netrw setlocal statusline=%1*%=%l/%L
 
 "file explorer
 let g:netrw_banner=0
