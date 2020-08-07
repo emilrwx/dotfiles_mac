@@ -321,10 +321,6 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 	width: 100% !important;
 }
 
-/* ========================================================= */
-/* ========================================================= */
-/* rgb(17, 17, 18) #111112
-========================================================= */
 /* New tab icon size (16 is default) Important to not change the rest of calc */
 #tabs-newtab-button .toolbarbutton-icon {
 	width: calc(2 * var(--toolbarbutton-inner-padding) + 12px) !important;
@@ -333,7 +329,7 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 
 /* Main BAR */
 #navigator-toolbox {
-	background-color: rgb(17, 17, 18) !important;
+	background-color: rgb(29, 31, 33) !important;
 	--tabs-border-color: none !important;
 	--my-tab-min-width: 80px !important;
 	/* 36px */
