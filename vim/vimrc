@@ -61,6 +61,10 @@ set number
 set notimeout ttimeout ttimeoutlen=200
 
 nnoremap <C-L> :nohl<CR><C-L>
+imap <silent> <Down> <C-o>gj
+imap <silent> <Up> <C-o>gk
+nmap <silent> <Down> gj
+nmap <silent> <Up> gk
 
 set tabstop=4
 set softtabstop=4
