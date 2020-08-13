@@ -87,6 +87,7 @@ set breakindent
 set linebreak
 
 set scrolloff=10
+set display+=lastline
 
 set background=dark
 colorscheme fresh
