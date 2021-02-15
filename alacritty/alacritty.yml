@@ -1,0 +1,78 @@
+window:
+  padding:
+    x: 10
+    y: 10
+
+  dynamic_padding: true
+
+  decorations: buttonless
+
+  startup_mode: Windowed
+
+font:
+  normal:
+    family: Jetbrains Mono NL
+
+  bold:
+    family: Jetbrains Mono NL
+
+    style: Bold
+
+  italic:
+    family: Jetbrains Mono NL
+
+    style: Italic
+
+  bold_italic:
+    family: Jetbrains Mono NL
+
+    style: Bold Italic
+
+  size: 14.0
+
+ 
+  use_thin_strokes: true
+
+draw_bold_text_with_bright_colors: false
+
+colors:
+  primary:
+    background: '#14161b'
+    foreground: '#a89984'
+
+    dim_foreground: '#9a9a9a'
+    bright_foreground: '#ffffff'
+
+  cursor:
+    text: '#cc241d'
+    cursor: '#cc241d'
+
+  normal:
+    black:   '#14161b'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#4187ac'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  bright: 
+    black:   '#4f483e'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#4187ac'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+    
+background_opacity: 1.0
+
+dynamic_title: true
+
+cursor:
+  style: Beam
+
+  unfocused_hollow: true
