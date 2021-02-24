@@ -93,8 +93,8 @@ set clipboard=unnamedplus,unnamed,autoselect
 
 " If normal mode, insert new line and print current time with F3. If insert
 " mode, print current time with F3
-nmap <Home> o<C-R>=strftime("**klo %H:%M -** ")<CR>
-imap <Home> <C-R>=strftime("**klo %H:%M -** ")<CR>
+nmap <Home> o<C-R>=strftime("**%H:%M:%S -** ")<CR>
+imap <Home> <C-R>=strftime("**%H:%M:%S -** ")<CR>
 
 " 1 tab is 4 spaces
 set tabstop=4
@@ -141,11 +141,11 @@ hi VertSplit ctermfg=0 ctermbg=8
 set fillchars=vert:\│
 
 " Statusline colors
-hi User3 ctermbg=0 ctermfg=1
-hi User2 ctermbg=0 ctermfg=3
-hi User1 ctermbg=0 ctermfg=2
-hi statusline ctermfg=0 ctermbg=2
-hi statuslineNC ctermfg=0 ctermbg=0
+hi User3 ctermbg=NONE ctermfg=1
+hi User2 ctermbg=NONE ctermfg=3
+hi User1 ctermbg=NONE ctermfg=2
+hi statusline ctermfg=NONE ctermbg=2
+hi statuslineNC ctermfg=NONE ctermbg=NONE
 
 " Always display the status line, even if only one window is displayed
 set laststatus=2
