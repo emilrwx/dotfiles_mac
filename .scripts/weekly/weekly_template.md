@@ -1,19 +1,23 @@
-## Mikä fiilis mulla on?
+## How am I feeling?
 
 
 
-## Mitä mä tein mun tavoitteiden eteen?
+## What did I do towards my goals?
 
 
 
-## Parannettavaa ensi viikolle?
+## What did I struggle with?
 
-* 
 
-## Positiiviset
 
-* 
+## What can I do better next week?
 
-## Negatiiviset
 
-* 
+
+## What made me happy?
+ 
+
+
+## What made me stressed, unhappy or angry?
+
+
