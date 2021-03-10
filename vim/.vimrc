@@ -91,10 +91,11 @@ nmap <silent> <Up> gk
 " Use system clipboard
 set clipboard=unnamedplus,unnamed,autoselect
 
-" If normal mode, insert new line and print current time with F3. If insert
-" mode, print current time with F3
-nmap <Home> o<C-R>=strftime("**%H:%M:%S -** ")<CR>
-imap <Home> <C-R>=strftime("**%H:%M:%S -** ")<CR>
+" Insert heading with a timestamp and subject in markdown
+imap <silent> <F1> <C-R>=strftime("#### %H:%M:%S NOTE -")<CR>
+imap <silent> <F2> <C-R>=strftime("#### %H:%M:%S IDEA -")<CR>
+imap <silent> <F3> <C-R>=strftime("#### %H:%M:%S LEARN -")<CR>
+imap <silent> <F4> <C-R>=strftime("#### %H:%M:%S TODO -")<CR>
 
 " 1 tab is 4 spaces
 set tabstop=4
