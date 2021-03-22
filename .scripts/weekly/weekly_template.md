@@ -1,23 +1,27 @@
-## How am I feeling?
+### Score? (0-10)
 
 
 
-## What did I do towards my goals?
+### What did I do towards my goals?
 
 
 
-## What did I struggle with?
+### How am I feeling?
 
 
 
-## What can I do better next week?
+### What did I struggle with?
 
 
 
-## What made me happy?
- 
+### What can I do better next week?
 
 
-## What made me stressed, unhappy or angry?
+
+### What made me happy?
+
+
+
+### What made me stressed, unhappy or angry?
 
 
